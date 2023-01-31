@@ -60,6 +60,14 @@
 				color: #fff;
 				text-shadow: 0 0 7px #ffeba6, 0 0 10px #ffeba6, 0 0 21px #ffeba6, 0 0 42px #ffeba6, 0 0 82px #ffeba6, 0 0 92px #ffeba6, 0 0 102px #ffeba6, 0 0 151px #ffeba6;
 			}
+			@keyframes blink-effect {
+				50% {
+					opacity: 0;
+				}
+			}
+			.blink {
+				animation: blink-effect 1s step-end infinite;
+			}
 		</style>
 		<link href="fonts.css" rel="stylesheet">
 	</head>
@@ -324,7 +332,7 @@
 		<div style="clear: both;"></div>
 		<br>
 		<div style="display: flex; align-items: center;">
-			<div style="margin-left: 11%; width: 37%; float: left; text-align: center;">
+			<div  class="blink" style="margin-left: 11%; width: 37%; float: left; text-align: center;">
 				<div class="jb-ko-content">
 					쿵쿵<br>
 				</div>
