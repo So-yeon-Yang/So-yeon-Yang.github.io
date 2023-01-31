@@ -328,10 +328,9 @@
 		<div style="clear: both;"></div>
 		<br>
 		<!-- 오디오 테스트 -->
-		<audio id="ss">
-			<source src="/audio/ss.mp3">
-		</audio>
-		<a href="javascript:void(0);" class="play">음원재생</a>
+		<button id="btnPlay"> 재생 버튼 </button>
+		<button id="btnPause"> 일시정지 버튼 </button>
+		<button id="btnStop"> 정지 버튼 </button>
 		<!-- 오디오 테스트 -->
 		<div style="display: flex; align-items: center;">
 			<img src="/image/7.jpeg" alt="7" style="width: 37%; margin-left: 11%; float: left;">
@@ -411,4 +410,25 @@
 			</div>
 		</div>
 	</body>
+	<script>
+		const myAudio = new Audio();
+		myAudio.src = "/audio/ss.mp3";
+
+		const btnPlay = document.getElementById("btnPlay");
+		const btnPause = document.getElementById("btnPause");
+		const btnStop = document.getElementById("btnStop");
+
+		btnPlay.onclick = function(){
+			myAudio.play();
+		}
+
+		btnPause.onclick = function(){
+			myAudio.pause();
+		}
+
+		btnStop.onclick = function(){
+			myAudio.pause();
+			myAudio.currentTime = 0;
+		}
+	</script>
 </html>
