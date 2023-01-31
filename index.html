@@ -49,6 +49,12 @@
 				display: block;
 			}
 		</style>
+		<script>
+			function buttonss(){
+				var audio = document.getElementById("ss");
+				audio.play();
+			}
+		</script>
 		<link href="../augji_project/fonts.css" rel="stylesheet">
 	</head>
 	<body style="background-color: black;">
@@ -321,13 +327,12 @@
 		</div>
 		<div style="clear: both;"></div>
 		<br>
-		<audio 
-			controls
-			src="/audio/ss.mp3"
-			type="audio/mpeg"
-		>
-			audio<br>
+		<!-- 오디오 테스트 -->
+		<audio id="ss">
+			<source src="/audio/ss.mp3">
 		</audio>
+		<a href="javascript:void(0);" class="play">음원재생</a>
+		<!-- 오디오 테스트 -->
 		<div style="display: flex; align-items: center;">
 			<img src="/image/7.jpeg" alt="7" style="width: 37%; margin-left: 11%; float: left;">
 			<div style="margin-left: 4%; margin-right: 11%; width: 37%; float: left; text-align: center;">
