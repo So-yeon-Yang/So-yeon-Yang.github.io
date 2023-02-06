@@ -95,13 +95,15 @@ body {
 }
 .image1-text {
     margin-left: 7%;
+    margin-right: 6%;
     width: 38%;
+    float: left;
     text-align: right;
 }
 .image1 {
     width: 42%;
-    margin-left: 6%;
     margin-right: 7%;
+    float: right;
 }
 .btn {
     position: relative;
