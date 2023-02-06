@@ -1,0 +1,125 @@
+body {
+    margin-right: 17%;
+    margin-left: 17%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: black;
+}
+
+.jb-ko-title {
+    text-align: right;
+    font-size: 55px;
+    color: white;
+    font-family: Inter;
+    font-weight: 857;
+}
+.jb-en-title {
+    text-align: right;
+    font-size: 55px;
+    color: #96a9c9;
+    font-family: Inter;
+    font-weight: 857;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.jb-ko-notice {
+    text-align: right;
+    font-size: 15px;
+    color: white;
+    font-family: Inter;
+    font-weight: 857;
+    font-style: italic;
+}
+.jb-en-notice {
+    text-align: right;
+    font-size: 15px;
+    color: #96a9c0;
+    font-family: Inter;
+    font-weight: 857;
+    font-style: italic;
+}
+.jb-ko-content {
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    font-family: Inter;
+    font-weight: 857;
+}
+.jb-en-content {
+    text-align: left;
+    font-size: 20px;
+    color: #96a9c0;
+    font-family: Inter;
+    font-weight: 857;
+    font-style: italic;
+}
+.ko-semi-title {
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    font-family: Inter;
+    font-weight: 857;
+}
+.en-semi-title {
+    text-align: left;
+    font-size: 20px;
+    color: #96a9c0;
+    font-family: Inter;
+    font-weight: 857;
+    font-style: italic;
+}
+.btn {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 37% 31%;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 857;
+    background-color: black;
+    color: white;
+}
+.neonText {
+    color: #fff;
+    text-shadow: 0 0 7px black, 0 0 10px black, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #fff;
+    animation: pulsate 0.11s ease-in-out infinite alternate;
+}
+@keyframes pulsate {
+    100% {
+        text-shadow:
+        0 0 4px black,
+        0 0 11px black,
+        0 0 19px #fff,
+        0 0 40px #fff,
+        0 0 80px #fff,
+        0 0 90px #fff,
+        0 0 100px #fff,
+        0 0 150px #fff;
+    }
+    0% {
+        text-shadow:
+        0 0 4px black,
+        0 0 10px black,
+        0 0 18px #fff,
+        0 0 38px #fff,
+        0 0 73px #fff,
+        0 0 80px #fff,
+        0 0 94px #fff,
+        0 0 140px #fff;
+    }
+}
+.btn-achive {
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    height: 48px;
+    float: right;
+    margin-right: 11%;
+}
+@font-face{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../augji_project/Inter-VariableFont_slnt\,wght.ttf");
+}
