@@ -79,6 +79,7 @@ body {
 .image-body {
     display: flex;
     align-items: center;
+    margin: 0;
 }
 .image0 {
     width: 37%;
