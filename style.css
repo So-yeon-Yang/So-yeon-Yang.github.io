@@ -38,21 +38,6 @@ body {
     font-weight: 857;
     font-style: italic;
 }
-.jb-ko-content {
-    text-align: left;
-    font-size: 20px;
-    color: white;
-    font-family: Inter;
-    font-weight: 857;
-}
-.jb-en-content {
-    text-align: left;
-    font-size: 20px;
-    color: #96a9c0;
-    font-family: Inter;
-    font-weight: 857;
-    font-style: italic;
-}
 .ko-semi-title {
     text-align: left;
     font-size: 20px;
@@ -67,6 +52,54 @@ body {
     font-family: Inter;
     font-weight: 857;
     font-style: italic;
+}
+
+.jb-ko-content {
+    font-size: 20px;
+    color: white;
+    font-family: Inter;
+    font-weight: 857;
+}
+.jb-en-content {
+    font-size: 20px;
+    color: #96a9c0;
+    font-family: Inter;
+    font-weight: 857;
+    font-style: italic;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+
+.image-body {
+    display: flex;
+    align-items: center;
+}
+.image0 {
+    width: 37%;
+    margin-left: 11%;
+    float: left;
+}
+.image0-text {
+    margin-right: 11%;
+    margin-left: 4%;
+    width: 37%;
+    float: left;
+    text-align: left;
+}
+.image1-text {
+    margin-left: 7%;
+    width: 38%;
+    float: left;
+    text-align: right;
+}
+.image1 {
+    width: 42%;
+    margin-right: 7%;
+    float: right;
 }
 .btn {
     position: relative;
