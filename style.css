@@ -95,14 +95,28 @@ body {
     margin-left: 7%;
     margin-right: 6%;
     width: 38%;
-    float: left;
     text-align: right;
 }
 .image1 {
     width: 42%;
     margin-right: 7%;
-    float: right;
 }
+.textbox1 {
+    margin-left: 6%;
+    float: left;
+    text-align: left;
+}
+.image2 {
+    width: 44%;
+    margin-left: 6%;
+}
+.image2-text {
+    margin-left: 3%;
+    width: 41%;
+    margin-right: 6%;
+    text-align: left;
+}
+
 .btn {
     position: relative;
     border: none;
