@@ -103,6 +103,7 @@ body {
 }
 .textbox1 {
     margin-left: 6%;
+    margin-right: 6%;
     text-align: left;
 }
 .image2 {
@@ -114,6 +115,26 @@ body {
     width: 41%;
     margin-right: 6%;
     text-align: left;
+}
+.image3-text {
+    margin-left: 4%;
+    width: 40%;
+    margin-right: 5%;
+    text-align: right;
+}
+.image3 {
+    width: 47%;
+    margin-right: 4%;
+}
+.textbox2 {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+.image4 {
+    margin-left: 21%;
+    width: 58%;
+    margin-right: 21%;
 }
 
 .btn {
