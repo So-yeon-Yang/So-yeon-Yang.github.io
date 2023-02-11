@@ -136,10 +136,6 @@ body {
     width: 58%;
     margin-right: 21%;
 }
-.relative {
-    position: relative;
-    z-index: 1;
-}
 .image6 {
     margin-left: 8%;
     width: 41%;
@@ -151,10 +147,6 @@ body {
     margin-right: 8%;
     text-align: center;
 }
-.sound-rel {
-    top: 10px;
-    z-index: 8;
-}
 .image5-text {
     margin-left: 10%;
     width: 37%;
@@ -164,6 +156,36 @@ body {
 .image5 {
     width: 39%;
     margin-right: 10%;
+}
+.image7 {
+    margin-left: 8%;
+    width: 39%;
+}
+.image7-text {
+    margin-left: 4%;
+    width: 41%;
+    margin-right: 8%;
+    text-align: center;
+}
+.image8-text {
+    margin-left: 6%;
+    width: 45%;
+    margin-right: 4%;
+    text-align: center;
+}
+.image8 {
+    width: 39%;
+    margin-right: 6%;
+}
+.image9 {
+    margin-left: 11%;
+    width: 39%;
+}
+.image9-text {
+    margin-left: 4%;
+    width: 35%;
+    margin-right: 11%;
+    text-align: center;
 }
 
 .btn {
