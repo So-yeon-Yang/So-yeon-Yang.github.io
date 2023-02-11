@@ -138,7 +138,6 @@ body {
 }
 .relative {
     position: relative;
-    border: 2px solid red;
 }
 .image6 {
     margin-left: 8%;
@@ -151,7 +150,7 @@ body {
     text-align: center;
 }
 .sound-rel {
-    top: 35px;
+    top: 20px;
 }
 .image5-text {
     margin-left: 10%;
