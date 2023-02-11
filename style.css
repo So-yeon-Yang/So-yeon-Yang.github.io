@@ -3,11 +3,24 @@ body {
     padding-bottom: 80px;
     background-color: black;
 }
+.top {
+    height: calc((100vh - 430px)/2);
+}
+.jb-style {
+	text-align: center;
+	height: 430px;
+}
+.bottom {
+	height: calc((100vh - 430px)/2);
+}
 .first-style {
     margin-right: 17%;
     margin-left: 17%;
 }
-
+.archive-margin {
+    margin-left: 11%;
+    margin-right: 11%;
+}
 .jb-ko-title {
     text-align: right;
     font-size: 55px;
@@ -212,6 +225,16 @@ body {
     background-color: black;
     color: white;
 }
+.btn-index {
+    background-color: black;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: white;
+    cursor: pointer;
+
+    height: 68px;
+    width: 327px;
+}
 .neonText {
     color: #fff;
     text-shadow: 0 0 7px black, 0 0 10px black, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #fff;
@@ -255,4 +278,49 @@ body {
     font-style: normal;
     font-weight: 400;
     src: url("../augji_project/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+.fixed {
+    position: fixed;
+    top: 27px;
+    left: 90%;
+}
+.btn-share {
+    background-color: black;
+	border-style: solid;
+	border-radius: 7px;
+	border-color: white;
+	cursor: pointer;
+	width: 85px;
+	height: 58px;
+}
+
+.share-style {
+    margin-left: 23%;
+    margin-right: 23%;
+}
+.share-title {
+    text-align: left;
+    font-size: 24px;
+    color: #a2a2a2;
+    font-family: Inter;
+    font-weight: 857;
+    font-style: italic;
+}
+.share-name {
+    text-align: left;
+    font-size: 14px;
+    color: #a2a2a2;
+    font-family: Inter;
+    font-weight: 857;
+    font-style: italic;
+}
+input {
+    width: 78%;
+    height: 32px;
+    border: 0;
+    outline: none;
+}
+.input-black {
+    background-color: black;
 }
