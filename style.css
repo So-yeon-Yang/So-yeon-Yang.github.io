@@ -187,6 +187,19 @@ body {
     margin-right: 11%;
     text-align: center;
 }
+.textbox3 {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+}
+.to-archive {
+    text-align: right;
+    width: 260px;
+}
+.arrow {
+    text-align: left;
+    margin-left: 2%;
+}
 
 .btn {
     position: relative;
