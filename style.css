@@ -136,6 +136,32 @@ body {
     width: 58%;
     margin-right: 21%;
 }
+.relative {
+    position: relative;
+}
+.image6 {
+    margin-left: 8%;
+    width: 41%;
+}
+.image6-text {
+    margin-left: 4%;
+    width: 39%;
+    margin-right: 8%;
+    text-align: center;
+}
+.sound-rel {
+    top: 325px;
+}
+.image5-text {
+    margin-left: 10%;
+    width: 37%;
+    margin-right: 4%;
+    text-align: center;
+}
+.image5 {
+    width: 39%;
+    margin-right: 10%;
+}
 
 .btn {
     position: relative;
