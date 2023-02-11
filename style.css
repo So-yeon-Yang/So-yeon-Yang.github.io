@@ -23,14 +23,12 @@ body {
     text-align: left;
 }
 .jb-ko-title {
-    text-align: right;
     font-size: 55px;
     color: white;
     font-family: Inter;
     font-weight: 857;
 }
 .jb-en-title {
-    text-align: right;
     font-size: 55px;
     color: #96a9c9;
     font-family: Inter;
