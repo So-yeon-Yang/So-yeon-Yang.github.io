@@ -315,11 +315,16 @@ body {
     font-style: italic;
 }
 input {
-    width: 78%;
-    height: 32px;
+    width: 55%;
     border: 0;
     outline: none;
 }
 .input-black {
     background-color: black;
+    height: 32px;
+}
+.input-content {
+    height: 52%;
+    background-color: #d9d9d9;
+    opacity: 0.25;
 }
