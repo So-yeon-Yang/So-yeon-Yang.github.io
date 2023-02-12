@@ -295,6 +295,7 @@ body {
 }
 
 .share-style {
+    width: 100%;
     height: 100%;
     align-items: center;
 }
@@ -324,7 +325,7 @@ input {
     height: 32px;
 }
 .input-content {
-    height: 535px;
+    height: 52%;
     background-color: #d9d9d9;
     opacity: 0.25;
 }
