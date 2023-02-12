@@ -295,6 +295,7 @@ body {
 }
 
 .share-style {
+    height: 100%;
     align-items: center;
 }
 .share-title {
