@@ -305,7 +305,6 @@ body {
     color: #a2a2a2;
     font-family: Inter;
     font-weight: 857;
-    font-style: italic;
 }
 .share-name {
     text-align: left;
@@ -313,7 +312,6 @@ body {
     color: #a2a2a2;
     font-family: Inter;
     font-weight: 857;
-    font-style: italic;
 }
 input {
     width: 55%;
@@ -324,8 +322,47 @@ input {
     background-color: black;
     height: 32px;
 }
-.input-content {
-    height: 52%;
+textarea {
+    width: 55%;
+    border: 0;
+    outline: none;
+    height: 50%;
     background-color: #d9d9d9;
-    opacity: 0.25;
+    background-color: rgba(217, 217, 217, 25%);
+}
+.file-text {
+    text-align: left;
+    font-size: 16px;
+    color: #a2a2a2;
+    font-family: Inter;
+    font-weight: 857;
+}
+#image {
+    visibility: hidden;
+}
+.upload-btn {
+    width: 85px;
+    height: 54px;
+    margin-right: 22%;
+    float: right;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.ko-upload {
+    text-align: left;
+    font-size: 18px;
+    color: white;
+    font-family: Inter;
+    font-weight: 857;
+}
+.en-upload {
+    text-align: left;
+    font-size: 18px;
+    color: #96a9c0;
+    font-family: Inter;
+    font-weight: 857;
+    font-style: italic;
 }

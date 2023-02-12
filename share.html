@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
     <head>
         <meta charset="utf-8">
         <title> 음악 없는 세상 </title>
@@ -28,15 +28,28 @@
         </div>
         <br><br>
         <div class="share-style">
-            <form method="post" enctype="multipart/form-data" style="height: 100%;">
-                <input type="text" placeholder="제목 Title" name="title" class="input-black share-title">
-                <br>
-                <input type="text" placeholder="이름 name" name="name" class="input-black share-name">
-                <br>
-                <input type="text" placeholder="내용을 입력하세요" name="content" class="share-name input-content">
-                <br>
-                <input type="file" name="image" accept="image/*" onchange="loadFile(this)">
+            <form th:action="@{/upload}" method="POST" enctype="multipart/form-data" style="height: 100%;">
+                <label for="title"></label>
+                <input type="text" placeholder="제목 Title" name="title" id="title" class="input-black share-title">
+                <label for="name"></label>
+                <input type="text" placeholder="이름 name" name="name" id="name" class="input-black share-name">
+                <label for="content"></label>
+                <textarea placeholder="내용을 입력하세요" name="content" id="content" class="share-name"></textarea>
+                <div class="image-body file-text">
+                    <label for="image"> 첨부파일 File </label>
+                </div>
+                <input type="file" name="image" id="image" accept="image/*" onchange="loadFile(this)">
+                <input type="submit" value="전송">
             </form>
+            <p id="Filename"></p>
+            <div class="upload-btn" id="upload">
+                <div class="ko-upload">
+                    올리기
+                </div>
+                <div class="en-upload">
+                    upload
+                </div>
+            </div>
         </div>
     </body>
 </html>
