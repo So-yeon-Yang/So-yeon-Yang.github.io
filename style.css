@@ -22,7 +22,7 @@ body {
     margin-right: 11%;
     text-align: left;
 }
-h1 {
+.jb-ko-title {
     font-size: 55px;
     color: white;
     font-family: Inter;
