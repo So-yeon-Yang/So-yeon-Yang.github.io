@@ -22,7 +22,7 @@ body {
     margin-right: 11%;
     text-align: left;
 }
-.jb-ko-title {
+h1 {
     font-size: 55px;
     color: white;
     font-family: Inter;
@@ -297,7 +297,6 @@ body {
 .share-style {
     width: 100%;
     height: 100%;
-    margin: auto;
 }
 .share-title {
     text-align: left;
