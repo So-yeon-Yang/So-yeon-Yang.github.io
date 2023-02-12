@@ -295,8 +295,7 @@ body {
 }
 
 .share-style {
-    margin-left: 22.5%;
-    margin-right: 22.5%;
+    align-items: center;
 }
 .share-title {
     text-align: left;
