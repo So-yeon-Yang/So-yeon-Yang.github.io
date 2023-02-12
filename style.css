@@ -297,7 +297,7 @@ h1 {
 .share-style {
     width: 100%;
     height: 100%;
-    border: #fff;
+    margin-left: 22%;
 }
 .share-title {
     text-align: left;
